@@ -1,5 +1,5 @@
 Config = Config or {}
-Config.MinimumDrugSalePolice = 2
+Config.MinimumDrugSalePolice = 0
 
 local StringCharset = {}
 local NumberCharset = {}
@@ -133,40 +133,40 @@ Config.CornerSellingDrugsList = {
 
 Config.DrugsPrice = {
     ["weed_white-widow"] = {
-        min = 15,
-        max = 24,
+        min = 9,
+        max = 13,
     },
     ["weed_og-kush"] = {
-        min = 15,
-        max = 28,
+        min = 10,
+        max = 12,
     },
     ["weed_skunk"] = {
-        min = 15,
-        max = 31,
+        min = 8,
+        max = 13,
     },
     ["weed_amnesia"] = {
-        min = 18,
-        max = 34,
+        min = 11,
+        max = 13,
     },
     ["weed_purple-haze"] = {
-        min = 18,
-        max = 37,
+        min = 10,
+        max = 14,
     },
     ["weed_ak47"] = {
-        min = 18,
-        max = 40,
+        min = 10,
+        max = 11,
     },
     ["crack_baggy"] = {
-        min = 18,
-        max = 34,
+        min = 22,
+        max = 41,
     },
     ["cokebaggy"] = {
-        min = 18,
-        max = 37,
+        min = 40,
+        max = 55,
     },
     ["meth"] = {
-        min = 18,
-        max = 40,
+        min = 28,
+        max = 34,
     },
 }
 
@@ -197,8 +197,8 @@ Config.CornerSellingZones = {
     [1] = {
 	["coords"] = vector3(-1415.53, -1041.51, 4.62),
         ["time"] = {
-            ["min"] = 12,
-            ["max"] = 18,
+            ["min"] = 0,
+            ["max"] = 24,
         },
     },
 }
